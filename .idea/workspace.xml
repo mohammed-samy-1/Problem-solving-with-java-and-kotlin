@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01b953a5-f731-4b90-9c72-d6980f81c1a9" name="Changes" comment="Luxurious Houses">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Java/LuxuriousHouses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/LuxuriousHouses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +52,7 @@
       <recent name="D:\IdeaProjects\Problem Solving" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LuxuriousHousesKt">
+  <component name="RunManager" selected="Application.LuxuriousHouses">
     <configuration name="LuxuriousHouses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java.LuxuriousHouses" />
       <module name="Problem Solving" />
@@ -101,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.LuxuriousHousesKt" />
         <item itemvalue="Application.LuxuriousHouses" />
+        <item itemvalue="Kotlin.LuxuriousHousesKt" />
         <item itemvalue="Kotlin.ValidAnagramKt" />
         <item itemvalue="Application.ValidAnagram" />
         <item itemvalue="Kotlin.LengthOfLastWordKt" />
@@ -120,7 +121,7 @@
       <workItem from="1675424474313" duration="3394000" />
       <workItem from="1675442345301" duration="2964000" />
       <workItem from="1675507083166" duration="3635000" />
-      <workItem from="1675531610272" duration="6990000" />
+      <workItem from="1675531610272" duration="13455000" />
     </task>
     <task id="LOCAL-00001" summary="problem solving using java and kotlin&#10;I'll solve some problems using both java and kotlin &#10;you can find the java version in Java package&#10;and kotlin in the Kotlin package">
       <created>1675427812963</created>
@@ -150,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675538354458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Luxurious Houses">
+      <created>1675538812602</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675538812602</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -2,18 +2,15 @@ package Java;
 
 import java.util.Scanner;
 
-/**
- *
- */
 public class LuxuriousHouses {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("enter the number of houses : ");
-        int n = Integer.parseInt(scanner.next());
-        System.out.print("enter the number of flours in each house : ");
-        String s = scanner.nextLine();
-        s = scanner.nextLine();
-        testLuxurious(s);
+        int n = scanner.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = scanner.nextInt();
+        }
+        testLuxurious(arr,n);
     }
 
     /**
@@ -24,25 +21,28 @@ public class LuxuriousHouses {
      * The new architect is interested in n questions, i-th of them is about the following: "how many floors should be added to the i-th house to make it luxurious?" (for all i from 1 to n, inclusive).
      * You need to help him cope with this task.
      * Note that all these questions are independent from each other — the answer to the question for house i does not affect other answers (i.e., the floors to the houses are not actually added)
-     *
+     * <p>
      * eg:- input : 1 2 3 1 2   output : 3 2 0 2 0
      * eg:- input : 3 2 1 4     output : 2 3 4 0
      *
-     * @param s pass number of flowers in each house separated by space
-     * @output a1,a2,...,an, where number ai is the number of floors that need to be added to the house number i to make it luxurious.
-     *         If the house is already luxurious and nothing needs to be added to it, then ai should be equal to zero.
+     * @param arr pass number of flowers in each house separated by space
+     * @output a1, a2, ..., an, where number ai is the number of floors that need to be added to the house number i to make it luxurious.
+     * If the house is already luxurious and nothing needs to be added to it, then ai should be equal to zero.
      */
-    private static void testLuxurious(String s) {
-        String[] arr = s.split(" ");
-        for (int i = 0, maxDiff = 0; i < arr.length; i++, maxDiff = 0) {
-            int current = Integer.parseInt(arr[i]);
-            for (int j = i + 1, value; j < arr.length; j++) {
-                value = Integer.parseInt(arr[j]);
-                if (value >= current && value - current >= maxDiff) {
-                    maxDiff = value - current + 1;
-                }
+    private static void testLuxurious(int[] arr, int num) {
+        int arr2[] = new int[num];
+        int last = arr[num -1];
+        for (int i = num-2; i >= 0; i--){
+            if (arr[i] <= last){
+                arr2[i] = last - arr[i] + 1 ;
+            }else{
+                arr2[i] = 0;
+                last = arr[i];
             }
-            System.out.print(maxDiff + " ");
         }
+        for (int i = 0; i < arr2.length-1; i++) {
+            System.out.print(arr2[i] + " ");
+        }
+        System.out.println(0 + " ");
     }
 }
