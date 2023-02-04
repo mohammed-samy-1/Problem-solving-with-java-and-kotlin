@@ -16,6 +16,9 @@ fun main() {
  * You need to help him cope with this task.
  * Note that all these questions are independent from each other — the answer to the question for house i does not affect other answers (i.e., the floors to the houses are not actually added)
  *
+ *  eg:- input : 1 2 3 1 2   output : 3 2 0 2 0
+ *  eg:- input : 3 2 1 4     output : 2 3 4 0
+ *
  * @param s pass number of flowers in each house separated by space
  * @output a1,a2,...,an, where number ai is the number of floors that need to be added to the house number i to make it luxurious.
  *         If the house is already luxurious and nothing needs to be added to it, then ai should be equal to zero.

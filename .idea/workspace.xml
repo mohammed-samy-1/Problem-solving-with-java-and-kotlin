@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b953a5-f731-4b90-9c72-d6980f81c1a9" name="Changes" comment="Valid Anagram">
-      <change afterPath="$PROJECT_DIR$/src/Java/LuxuriousHouses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kotlin/LuxuriousHouses.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/LengthOfLastWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ValidAnagram.java" afterDir="false" />
+    <list default="true" id="01b953a5-f731-4b90-9c72-d6980f81c1a9" name="Changes" comment="Luxurious Houses">
+      <change beforePath="$PROJECT_DIR$/src/Java/LuxuriousHouses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/LuxuriousHouses.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "19",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\Problem Solving" />
@@ -126,7 +120,7 @@
       <workItem from="1675424474313" duration="3394000" />
       <workItem from="1675442345301" duration="2964000" />
       <workItem from="1675507083166" duration="3635000" />
-      <workItem from="1675531610272" duration="6423000" />
+      <workItem from="1675531610272" duration="6990000" />
     </task>
     <task id="LOCAL-00001" summary="problem solving using java and kotlin&#10;I'll solve some problems using both java and kotlin &#10;you can find the java version in Java package&#10;and kotlin in the Kotlin package">
       <created>1675427812963</created>
@@ -149,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675532786010</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Luxurious Houses">
+      <created>1675538354458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675538354458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +160,8 @@
     <MESSAGE value="problem solving using java and kotlin&#10;I'll solve some problems using both java and kotlin &#10;you can find the java version in Java package&#10;and kotlin in the Kotlin package" />
     <MESSAGE value="find the length of the last word in a string" />
     <MESSAGE value="Valid Anagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Valid Anagram" />
+    <MESSAGE value="Luxurious Houses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Luxurious Houses" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
