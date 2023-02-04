@@ -11,6 +11,7 @@ public class ValidAnagram {
         String s = scanner.nextLine();
         System.out.print("Enter second string : ");
         String s2 = scanner.nextLine();
+        scanner.close();
         System.out.println(anagramTest(s, s2));
     }
 

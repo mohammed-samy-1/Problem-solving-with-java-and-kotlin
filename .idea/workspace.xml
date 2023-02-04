@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01b953a5-f731-4b90-9c72-d6980f81c1a9" name="Changes" comment="find the length of the last word in a string">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/ValidAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kotlin/ValidAnagram.kt" afterDir="false" />
+    <list default="true" id="01b953a5-f731-4b90-9c72-d6980f81c1a9" name="Changes" comment="Valid Anagram">
+      <change afterPath="$PROJECT_DIR$/src/Java/LuxuriousHouses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kotlin/LuxuriousHouses.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/LengthOfLastWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java/ValidAnagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/ValidAnagram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -55,9 +57,9 @@
       <recent name="D:\IdeaProjects\Problem Solving" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ValidAnagramKt">
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.LengthOfLastWord" />
+  <component name="RunManager" selected="Kotlin.LuxuriousHousesKt">
+    <configuration name="LuxuriousHouses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.LuxuriousHouses" />
       <module name="Problem Solving" />
       <extension name="coverage">
         <pattern>
@@ -82,15 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainsDuplicateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kotlin.ContainsDuplicateKt" />
+    <configuration name="LengthOfLastWordKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kotlin.LengthOfLastWordKt" />
       <module name="Problem Solving" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLastWordKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Kotlin.LengthOfLastWordKt" />
+    <configuration name="LuxuriousHousesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Kotlin.LuxuriousHousesKt" />
       <module name="Problem Solving" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LuxuriousHousesKt" />
+        <item itemvalue="Application.LuxuriousHouses" />
         <item itemvalue="Kotlin.ValidAnagramKt" />
         <item itemvalue="Application.ValidAnagram" />
         <item itemvalue="Kotlin.LengthOfLastWordKt" />
-        <item itemvalue="Application.LengthOfLastWord" />
-        <item itemvalue="Kotlin.ContainsDuplicateKt" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +126,7 @@
       <workItem from="1675424474313" duration="3394000" />
       <workItem from="1675442345301" duration="2964000" />
       <workItem from="1675507083166" duration="3635000" />
-      <workItem from="1675531610272" duration="1124000" />
+      <workItem from="1675531610272" duration="6423000" />
     </task>
     <task id="LOCAL-00001" summary="problem solving using java and kotlin&#10;I'll solve some problems using both java and kotlin &#10;you can find the java version in Java package&#10;and kotlin in the Kotlin package">
       <created>1675427812963</created>
@@ -140,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675444781779</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Valid Anagram">
+      <created>1675532786010</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675532786010</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,10 +158,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="problem solving using java and kotlin&#10;I'll solve some problems using both java and kotlin &#10;you can find the java version in Java package&#10;and kotlin in the Kotlin package" />
     <MESSAGE value="find the length of the last word in a string" />
-    <option name="LAST_COMMIT_MESSAGE" value="find the length of the last word in a string" />
+    <MESSAGE value="Valid Anagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Valid Anagram" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="            val value = list[i].toInt()&#10;" />
+      </configuration>
       <configuration name="Application">
         <watch expression="map.get(c).intValue() == map2.get(c).intValue()" />
       </configuration>

@@ -10,6 +10,7 @@ public class LengthOfLastWord {
         System.out.print("please enter a string : ");
         Scanner scanner = new Scanner(System.in);
         String s = scanner.nextLine();
+        scanner.close();
         System.out.println(lengthOfLastWord(s));
         System.out.println(lengthOfLastWord2(s));
     }
